@@ -23,7 +23,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-public class export {
+public class hometask {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
@@ -43,30 +43,9 @@ public class export {
         driver.quit();
     }
 
-    @Test
-    public void teseerrorlogoutuser() {
-        driver.get("https://www.saucedemo.com/");
-        driver.manage().window().setSize(new Dimension(1280, 626));
-        driver.findElement(By.id("user-name")).click();
-        driver.findElement(By.id("user-name")).sendKeys("locked_out_user");
-        driver.findElement(By.id("password")).click();
-        driver.findElement(By.id("password")).sendKeys("secret_sauce");
-        driver.findElement(By.cssSelector("*[data-test=\"login-button\"]")).click();
-        driver.findElement(By.cssSelector("*[data-test=\"error\"]")).click();
-        assertThat(driver.findElement(By.cssSelector("*[data-test=\"error\"]")).getText(), is("Epic sadface: Sorry, this user has been locked out."));
-        driver.close();
-    }
 
-    @Test
-    public void teseerrorlogoutuser2() {
-        driver.get(url);
-        driver.manage().window().setSize(new Dimension(1280, 626));
-        driver.findElement(By.id("user-name")).sendKeys("standard_user");
-        driver.findElement(By.id("password")).sendKeys("secret_sauce");
-        driver.findElement(By.id("login-button")).click();
-        assertEquals(driver.findElement(By.id("item_4_title_link")).findElement(By.className("inventory_item_name")).getText(), "Sauce Labs Backpack");
-    }
-    @Test
+
+        @Test
     public void teseerroruser3() {
         driver.get(url);
         driver.manage().window().setSize(new Dimension(1280, 626));
@@ -84,8 +63,7 @@ public class export {
         assertEquals(driver.findElement(By.id("checkout_complete_container")).findElement(By.className("complete-header")).getText(), "THANK YOU FOR YOUR ORDER");
         assertEquals(driver.findElement(By.id("checkout_complete_container")).findElement(By.className("complete-text")).getText(), "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
         driver.findElement(By.id("react-burger-menu-btn")).click();
-        driver.findElement(By.id("logout_sidebar_link")).click();
-
+                        driver.findElement(By.id("logout_sidebar_link")).click();
 
     }
 }

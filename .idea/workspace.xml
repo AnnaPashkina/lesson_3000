@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba8f691-61ba-460d-b3a6-f1f2f0b1e4b2" name="Changes" comment="lesson">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hometask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/export.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/export.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\Users\Anya\IdeaProjects\lesson_300\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.export">
+  <component name="RunManager" selected="JUnit.hometask.teseerroruser3">
     <configuration name="export" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson_300" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,11 +62,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="export.teseerrorlogoutuser2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="export.teseerrorlogoutuser3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson_300" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="export" />
-      <option name="METHOD_NAME" value="teseerrorlogoutuser2" />
+      <option name="METHOD_NAME" value="teseerrorlogoutuser3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="export.teseerroruser3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_300" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="export" />
+      <option name="METHOD_NAME" value="teseerroruser3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hometask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_300" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hometask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hometask.teseerroruser3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson_300" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hometask" />
+      <option name="METHOD_NAME" value="teseerroruser3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hometask.teseerroruser3" />
+        <item itemvalue="JUnit.hometask" />
         <item itemvalue="JUnit.export" />
-        <item itemvalue="JUnit.export.teseerrorlogoutuser2" />
+        <item itemvalue="JUnit.export.teseerroruser3" />
+        <item itemvalue="JUnit.export.teseerrorlogoutuser3" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671574609177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson">
+      <created>1671816196360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671816196360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
